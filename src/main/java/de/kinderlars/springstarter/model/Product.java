@@ -2,6 +2,9 @@ package de.kinderlars.springstarter.model;
 
 import java.util.UUID;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Product {
   private final UUID id;
   private String name;
